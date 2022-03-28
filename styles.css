@@ -4,7 +4,7 @@ body{
     justify-content: center;
     height: 100vh;
 
-    background-image: radial-gradient(#ebebeb, #b7be4b);
+    background-image: radial-gradient(#1800f5, #deec0f);
 }
 
 .carregamento{
@@ -15,9 +15,9 @@ body{
     border-style: solid;
     border-radius: 50%;
     border-width: 3px;
-    border-top-color: #0ec0d8;
+    border-top-color: #ffffff;
     
-    animation: loading 1.2s linear infinite;
+    animation: loading 1.5s linear infinite;
 }
 
  @keyframes loading{
