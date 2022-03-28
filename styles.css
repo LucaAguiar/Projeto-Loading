@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-image: radial-gradient(#ebebeb, #b7be4b);
+}
+
+.carregamento{
+    width: 60px;
+    height: 60px;
+
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 3px;
+    border-top-color: #0ec0d8;
+    
+    animation: loading 1.2s linear infinite;
+}
+
+ @keyframes loading{
+    to {transform: rotate(360deg);}
+ }
